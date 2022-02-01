@@ -21,5 +21,8 @@
     "unit-whitelist": null,
     "scss/selector-no-redundant-nesting-selector": true,
     "scss/no-duplicate-dollar-variables": true
-  }
+  },
+  "ignoreFiles": [
+    "src/sass/bootstrap/**/*.scss"
+  ]
 }
