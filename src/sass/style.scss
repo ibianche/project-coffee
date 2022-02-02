@@ -5,13 +5,6 @@
 @import "bootstrap/_utilities.scss";
 @import "bootstrap/_grid.scss";
 
-
-//// Utilities
-//@import "utilities/api";
-
-@import "normalize";
-
-@import "layout";
-@import "global";
-@import "icons";
-//@import "_typography";
+@import "partials/normalize.scss";
+@import "partials/icons.scss";
+@import "partials/hero.scss";
