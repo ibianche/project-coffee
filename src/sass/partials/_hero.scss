@@ -19,5 +19,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
 
+.hero-text p{
+  text-align: center;
+  //position: absolute;
+  color: white;
+  object-fit: cover;
+  margin-top: -50px;
 }
