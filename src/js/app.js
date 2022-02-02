@@ -1,7 +1,7 @@
 import { settings } from './settings.js'
 
 
-const app = {
+export const app = {
   initData: function() {
     const url = settings.db.url + '/' + settings.db.products;
     this.data = {};
