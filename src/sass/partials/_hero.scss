@@ -44,6 +44,7 @@
   position: absolute;
   top: 100px;
   right: 80px;
+  font-size: 25px;
 }
 
 .main-nav li{
@@ -76,8 +77,9 @@
 .icon-arrow{
   font-size: 30px;
   color: #0dcaf0;
-  text-align: center;
+  //text-align: center;
+  //justify-content: center;
   margin-left: 700px; /*tylko tak udało mi się przesunąć na środek*/
-
+  color: #ffffff;
 
 }
