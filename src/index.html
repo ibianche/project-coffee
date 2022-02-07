@@ -11,19 +11,15 @@
 <body>
 <section class="introduction">
     <div class="container">
-
-
-    <div class="hero-image">
+        <div class="hero-image">
         <img src="images/background.png" alt="">
-
 
             <div class="header">
                 <h1 class="page-title">EL TIGRE</h1>
                 <p class="page-subtitle">VENEZUELA COFFEE BEANS</p>
             </div>
 
-
-        <div class="main-nav">
+            <div class="main-nav">
             <ul>
                 <li><a href="#home">HOME</a></li>
                 <li><a href="#products">PRODUCTS</a></li>
@@ -31,18 +27,37 @@
             </ul>
         </div>
 
-        <!--<img src="images/background.png" alt="">-->
-        <div class="hero-text">
+            <div class="hero-text">
             <h1 class="first-hero-text">HOME OF </h1>
             <h1 class="second-hero-text">ORIGINAL TASTES</h1>
             <p>DISCOVER</p>
             <i class="icon-arrow"></i>
         </div>
-
-    </div>
+        </div>
     </div>
 </section>
 
+<section class="products">
+    <div class="container">
+        <script id="template-cart-product" type="text/x-handlebars-template">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/coffee-1.png" alt="">
+            </div>
+            <div class="col-md-6">
+                <img src="images/coffee-2.png" alt="">
+            </div>
+            <div class="col-md-6">
+                <img src="images/coffee-3.png" alt="">
+            </div>
+        </div>
+        </script>
+    </div>
+</section>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js"></script>
 <script src="js/app.js" type="module"></script>
 </body>
 </html>
