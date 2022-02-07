@@ -1,4 +1,5 @@
 import { settings, select, templates } from './settings.js'
+import Product from './components/Product.js';
 
 
 export const app = {
