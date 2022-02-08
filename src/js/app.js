@@ -22,15 +22,15 @@ export const app = {
       // new Product(productData, thisApp.data.products[productData]);
       new Product(thisApp.data.products[productData].id, thisApp.data.products[productData]);
     }
-    thisApp.initProduct();
-
-  },
+    // thisApp.initProduct();
+    },
 
   init: function() {
     const thisApp = this;
     thisApp.initData();
     // thisApp.initProduct();
   },
+  thisApp.initProduct();
 }
 
 app.init();
