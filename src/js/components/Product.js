@@ -1,5 +1,5 @@
 import {select, templates} from '../settings.js';
-import {utils} from "../utils";
+import {utils} from "../utils.js";
 
 class Product {
 
@@ -22,7 +22,7 @@ class Product {
     thisProduct.element = utils.createDOMFromHTML(generatedHTML);
 
 
-    const productContainer = document.querySelector(select.containerOf.product);
+    const productContainer = document.querySelector(select.product);
 
 
     productContainer.appendChild(thisProduct.element);

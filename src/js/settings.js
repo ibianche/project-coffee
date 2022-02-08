@@ -3,9 +3,9 @@ export const select = {
   templateOf: {
     product: '#template-products',
   },
-  containerOf: {
-    product: '.coffee-description'
-  },
+
+  product: '#product-list',
+
 };
 
 export const templates = {
