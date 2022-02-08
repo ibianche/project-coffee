@@ -13,8 +13,9 @@ export const app = {
       })
       .then((parsedResponse) => {
         this.data.products = parsedResponse;
+        thisApp.initProduct();
       });
-    thisApp.initProduct();
+    // thisApp.initProduct();
   },
 
   initProduct: function(){
