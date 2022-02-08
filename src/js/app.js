@@ -4,6 +4,7 @@ import Product from './components/Product.js';
 
 export const app = {
   initData: function() {
+    const thisApp = this;
     const url = settings.db.url + '/' + settings.db.products;
     this.data = {};
     fetch(url)
@@ -13,6 +14,7 @@ export const app = {
       .then((parsedResponse) => {
         this.data.products = parsedResponse;
       });
+    thisApp.initProduct();
   },
 
   initProduct: function(){
@@ -30,7 +32,7 @@ export const app = {
     thisApp.initData();
     // thisApp.initProduct();
   },
-  thisApp.initProduct();
+  // thisApp.initProduct();
 }
 
 app.init();
