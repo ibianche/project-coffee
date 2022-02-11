@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="43" column="44" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="44" />
+            <state relative-caret-position="470">
+              <caret line="76" column="10" lean-forward="true" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -37,8 +37,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sass/partials/products.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="240">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/partials/_hero.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -174,12 +183,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643373463536</updated>
-      <workItem from="1643373467528" duration="47025000" />
+      <workItem from="1643373467528" duration="48273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47025000" />
+    <option name="totallyTimeSpent" value="48273000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -392,17 +401,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/partials/_hero.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/db/app.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/partials/_hero.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -418,15 +427,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="43" column="44" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="44" />
+        <state relative-caret-position="470">
+          <caret line="76" column="10" lean-forward="true" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/partials/products.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="240">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
