@@ -5,14 +5,15 @@
 <head>
     <title>Coffee</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,600&display=swap"
+          rel="stylesheet">
 </head>
 
 <body>
 <section class="introduction">
     <div class="container">
         <div class="hero-image">
-        <img src="images/background.png" alt="">
+            <img src="images/background.png" alt="">
 
             <div class="header">
                 <h1 class="page-title">EL TIGRE</h1>
@@ -20,19 +21,19 @@
             </div>
 
             <div class="main-nav">
-            <ul>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#products">PRODUCTS</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-            </ul>
-        </div>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#products">PRODUCTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
 
             <div class="hero-text">
-            <h1 class="first-hero-text">HOME OF </h1>
-            <h1 class="second-hero-text">ORIGINAL TASTES</h1>
-            <p>DISCOVER</p>
-            <i class="icon-arrow"></i>
-        </div>
+                <h1 class="first-hero-text">HOME OF </h1>
+                <h1 class="second-hero-text">ORIGINAL TASTES</h1>
+                <p>DISCOVER</p>
+                <i class="icon-arrow"></i>
+            </div>
         </div>
     </div>
 </section>
@@ -40,41 +41,70 @@
 
 <section class="products">
     <div class="container" id="product-list">
+        <div class="products-container-title">
+            <h1>PRODUCTS</h1>
+        </div>
 
     </div>
 </section>
 
 
 <script id="template-products" type="text/x-handlebars-template">
-
     <div class="coffee-description container">
-        <div class="products-images">
-            <div class="row col-6">
+
+
+        <!--<div class="row">-->
+            <!--<div class="col-sm-6 col-lg-3">-->
+
+            <!--<div class="products-images">-->
+                <!--{{{image}}}-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+
+<!--<div class="col-sm-6 col-lg-3">-->
+    <!--<div class="right-side">-->
+            <!--<div class="products-title ">-->
+                <!--{{{id}}} {{{title}}}-->
+            <!--</div>-->
+
+            <!--<div class="'products-description">-->
+                <!--{{{description}}}-->
+            <!--</div>-->
+
+            <!--<div class="products-types">-->
+                <!--{{{roasting}}}-->
+                <!--{{{intensity}}}-->
+            <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+        <!--</div>-->
+        <div class="row">
+        <div class="col">
+            <div class="products-images">
                 {{{image}}}
-            </div>
+                </div>
         </div>
 
-        <div class="products-title ">
-            <div class="row col-6">
+        <div class="col">
+
+            <div class="products-title ">
                 {{{id}}} {{{title}}}
-            </div>
-        </div>
+                </div>
 
-        <div class="'products-description">
-            <div class="row col-6">
+                <div class="'products-description">
                 {{{description}}}
-            </div>
-        </div>
+                </div>
 
-        <div class="products-types">
-            <div class="row">
+                <div class="products-types">
                 {{{roasting}}}
                 {{{intensity}}}
-            </div>
+                </div>
+
         </div>
-            </div>
+        </div>
 
-
+    </div>
 </script>
 
 
