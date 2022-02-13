@@ -14,9 +14,8 @@
 
 .products-description{
   font-family: 'Source Sans Pro', sans-serif;
- //margin-top: 10px;
-  padding: 40px 50px 40px 0;
-
+  padding: 20px 50% 40px 0;
+  border-top: 4px solid #BEA67C;
 }
 
 .products-types span{
@@ -27,7 +26,11 @@
 .products-images{
   margin-left: 100px;
 }
+
 .products-images img{
   width: 80%;
   height: 50%;
 }
+
+
+
