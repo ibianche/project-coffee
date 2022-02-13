@@ -10,12 +10,17 @@
 .products-title{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 30px;
+  font-weight: 900;
+  margin-top: 60px;
 }
 
 .products-description{
   font-family: 'Source Sans Pro', sans-serif;
   padding: 20px 50% 40px 0;
   border-top: 4px solid #BEA67C;
+  font-weight: 400;
+  //text-align: right;
+  margin-top: 30px;
 }
 
 .products-types span{
@@ -24,13 +29,22 @@
 }
 
 .products-images{
-  margin-left: 100px;
+ margin-top: 40px;
 }
 
 .products-images img{
-  width: 80%;
+  width: 70%;
   height: 50%;
+  margin-left: 130px;
+
+}
+.roasting{
+  font-weight: 900;
+  margin-top: -20px;
 }
 
+.intensity{
+  font-weight: 900;
+}
 
 
