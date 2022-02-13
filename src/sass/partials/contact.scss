@@ -1,0 +1,23 @@
+.contact-us-form{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.contact-us-header{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #BEA67C;
+  letter-spacing: 3px;
+}
+input{
+  height: 60px;
+  width: 40%;
+
+}
