@@ -6,6 +6,14 @@ export const select = {
 
   product: '#product-list',
 
+  containerOf: {
+    pages: '#pages',
+  },
+
+  nav: {
+    links: 'main-nav a',
+  }
+
 };
 
 export const templates = {
@@ -18,4 +26,13 @@ export const settings = {
     products: 'products',
   }
 
+};
+
+export const classNames = {
+  pages: {
+    active: 'active',
+  }
+  nav: {
+    active: 'active',
+  },
 };
