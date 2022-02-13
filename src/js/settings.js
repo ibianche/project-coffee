@@ -31,7 +31,7 @@ export const settings = {
 export const classNames = {
   pages: {
     active: 'active',
-  }
+  },
   nav: {
     active: 'active',
   },
