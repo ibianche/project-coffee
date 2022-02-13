@@ -23,12 +23,22 @@
   border-bottom: 3px solid #BEA67C;;
 }
 
-.about-us-description{
+.about-us-description p{
   //text-align: center;
   position: absolute;
   top: 50%;
   left: 30%;
   //transform: translate(-50%, -50%);
+  color: #FFF;
+  font-size: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+}
+
+.about-us-description h1{
+  position: absolute;
+  top: 75%;
+  right: 25%;
   color: #FFF;
   font-size: 30px;
   font-family: 'Source Sans Pro', sans-serif;
