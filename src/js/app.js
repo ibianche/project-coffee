@@ -45,7 +45,7 @@ export const app = {
         idOfProducts.classList.add('.active')
       } else if (idOfClickedElement === '#about-us') {
         idOfAboutUs.classList.add('.active')
-      } if (idOfClickedElement === '#contact-us') {
+      } else if (idOfClickedElement === '#contact-us') {
         idOfContactUs.classList.add('.active')
       }
     }
