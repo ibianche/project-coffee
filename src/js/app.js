@@ -4,7 +4,7 @@ import Product from './components/Product.js';
 
 export const app = {
 
-  initPages: function(){
+  initPages: function() {
     const thisApp = this;
 
 
@@ -18,7 +18,7 @@ export const app = {
     const idOfContactUs = document.querySelector('#contact-us');
 
 
-    for(let link of thisApp.navLinks) {
+    for (let link of thisApp.navLinks) {
       link.addEventListener('click', function (event) {
         const clickedElement = this;
         event.preventDefault();
@@ -28,30 +28,28 @@ export const app = {
 
         //  change URL hash
         window.location.hash = '#/' + id;
+        // });
+
+
+        idOfProducts.classList.remove('.active');
+        idOfAboutUs.classList.remove('.active');
+        idOfContactUs.classList.remove('.active');
+
+
+        const idOfClickedElement = clickedElement.getAttribute('id');
+
+
+        if (idOfClickedElement === '#products') {
+          idOfProducts.classList.add('.active')
+        } else if (idOfClickedElement === '#about-us') {
+          idOfAboutUs.classList.add('.active')
+        } else if (idOfClickedElement === '#contact-us') {
+          idOfContactUs.classList.add('.active')
+        }
       });
 
-
-      idOfProducts.classList.remove('.active');
-      idOfAboutUs.classList.remove('.active');
-      idOfContactUs.classList.remove('.active');
-
-
-      const clickedElement = this;
-      const idOfClickedElement = clickedElement.getAttribute('id');
-
-
-
-      if (idOfClickedElement === '#products') {
-        idOfProducts.classList.add('.active')
-      } else if (idOfClickedElement === '#about-us') {
-        idOfAboutUs.classList.add('.active')
-      } else if (idOfClickedElement === '#contact-us') {
-        idOfContactUs.classList.add('.active')
-      }
     }
-
-
-    },
+  },
 
 
 
