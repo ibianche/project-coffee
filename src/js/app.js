@@ -18,33 +18,37 @@ export const app = {
     const idOfContactUs = document.querySelector('#contact-us');
 
 
-    for(let link of thisApp.navLinks){
+    for(let link of thisApp.navLinks) {
       link.addEventListener('click', function (event) {
         const clickedElement = this;
         event.preventDefault();
 
         //get page id from href attribute
-        const id =  clickedElement.getAttribute('href').replace('#', '');
+        const id = clickedElement.getAttribute('href').replace('#', '');
 
         //  change URL hash
         window.location.hash = '#/' + id;
       });
+
+
+      idOfProducts.classList.remove('.active');
+      idOfAboutUs.classList.remove('.active');
+      idOfContactUs.classList.remove('.active');
+
+
+      const clickedElement = this;
+      const idOfClickedElement = clickedElement.getAttribute('id');
+
+
+
+      if (idOfClickedElement === '#products') {
+        idOfProducts.classList.add('.active')
+      } else if (idOfClickedElement === '#about-us') {
+        idOfAboutUs.classList.add('.active')
+      } if (idOfClickedElement === '#contact-us') {
+        idOfContactUs.classList.add('.active')
+      }
     }
-
-    idOfProducts.classList.remove('.active');
-    idOfAboutUs.classList.remove('.active');
-    idOfContactUs.classList.remove('.active');
-
-    if(id === '#products'){
-      idOfProducts.classList.add('.active')
-    }else if (id === '#about-us'){
-      idOfAboutUs.classList.add('.active')
-    }else if(id === '#contact-us'){
-      idOfContactUs.classList.add('.active')
-    }
-
-
-
 
 
     },
