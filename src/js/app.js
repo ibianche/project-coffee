@@ -1,4 +1,4 @@
-import { settings, select } from './settings.js'
+import { settings, select, classNames } from './settings.js'
 import Product from './components/Product.js';
 
 
@@ -10,7 +10,7 @@ export const app = {
 
     thisApp.navLinks = document.querySelectorAll(select.nav.links);
 
-    // const idFromHash = window.location.hash.replace('#/', '');
+    const idFromHash = window.location.hash.replace('#/', '');
 
 
     thisApp.idOfProducts = document.querySelector('#products');
@@ -31,20 +31,20 @@ export const app = {
         // });
 
 
-        thisApp.idOfProducts.classList.remove('.active');
-        thisApp.idOfAboutUs.classList.remove('.active');
-        thisApp.idOfContactUs.classList.remove('.active');
+        thisApp.idOfProducts.classList.remove(classNames.pages.active);
+        thisApp.idOfAboutUs.classList.remove(classNames.pages.active);
+        thisApp.idOfContactUs.classList.remove(classNames.pages.active);
 
 
         thisApp.idOfClickedElement = clickedElement.getAttribute('id');
 
 
         if (thisApp.idOfClickedElement === '#products') {
-          thisApp.idOfProducts.classList.add('.active')
+          thisApp.idOfProducts.classList.add(classNames.pages.active)
         } else if (thisApp.idOfClickedElement === '#about-us') {
-          thisApp.idOfAboutUs.classList.add('.active')
+          thisApp.idOfAboutUs.classList.add(classNames.pages.active)
         } else if (thisApp.idOfClickedElement === '#contact-us') {
-          thisApp.idOfContactUs.classList.add('.active')
+          thisApp.idOfContactUs.classList.add(classNames.pages.active)
         }
       });
 
