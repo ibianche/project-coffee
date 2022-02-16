@@ -1,4 +1,4 @@
-import { settings, select, classNames } from './settings.js'
+import { settings, select } from './settings.js'
 import Product from './components/Product.js';
 
 
@@ -10,12 +10,12 @@ export const app = {
 
     thisApp.navLinks = document.querySelectorAll(select.nav.links);
 
-    const idFromHash = window.location.hash.replace('#/', '');
+    // const idFromHash = window.location.hash.replace('#/', '');
 
 
-    const idOfProducts = document.querySelector('#products');
-    const idOfAboutUs = document.querySelector('#about-us');
-    const idOfContactUs = document.querySelector('#contact-us');
+    thisApp.idOfProducts = document.querySelector('#products');
+    thisApp.idOfAboutUs = document.querySelector('#about-us');
+    thisApp.idOfContactUs = document.querySelector('#contact-us');
 
 
     for (let link of thisApp.navLinks) {
@@ -31,20 +31,20 @@ export const app = {
         // });
 
 
-        idOfProducts.classList.remove('.active');
-        idOfAboutUs.classList.remove('.active');
-        idOfContactUs.classList.remove('.active');
+        thisApp.idOfProducts.classList.remove('.active');
+        thisApp.idOfAboutUs.classList.remove('.active');
+        thisApp.idOfContactUs.classList.remove('.active');
 
 
-        const idOfClickedElement = clickedElement.getAttribute('id');
+        thisApp.idOfClickedElement = clickedElement.getAttribute('id');
 
 
-        if (idOfClickedElement === '#products') {
-          idOfProducts.classList.add('.active')
-        } else if (idOfClickedElement === '#about-us') {
-          idOfAboutUs.classList.add('.active')
-        } else if (idOfClickedElement === '#contact-us') {
-          idOfContactUs.classList.add('.active')
+        if (thisApp.idOfClickedElement === '#products') {
+          thisApp.idOfProducts.classList.add('.active')
+        } else if (thisApp.idOfClickedElement === '#about-us') {
+          thisApp.idOfAboutUs.classList.add('.active')
+        } else if (thisApp.idOfClickedElement === '#contact-us') {
+          thisApp.idOfContactUs.classList.add('.active')
         }
       });
 
