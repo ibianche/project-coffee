@@ -12,7 +12,6 @@ export const app = {
 
     // const idFromHash = window.location.hash.replace('#/', '');
 
-
     thisApp.idOfProducts = document.querySelector('#products');
     thisApp.idOfAboutUs = document.querySelector('#about-us');
     thisApp.idOfContactUs = document.querySelector('#contact-us');
@@ -30,7 +29,6 @@ export const app = {
         // window.location.hash = '#/' + thisApp.id;
         // });
 
-
         thisApp.idOfProducts.classList.remove(classNames.pages.active);
         thisApp.idOfAboutUs.classList.remove(classNames.pages.active);
         thisApp.idOfContactUs.classList.remove(classNames.pages.active);
@@ -40,11 +38,11 @@ export const app = {
         window.location.hash = '#/' + thisApp.id;
 
 
-        if (thisApp.id === '#products') {
+        if (thisApp.id == '#products') {
           thisApp.idOfProducts.classList.add(classNames.pages.active)
-        } else if (thisApp.id === '#about-us') {
+        } else if (thisApp.id == '#about-us') {
           thisApp.idOfAboutUs.classList.add(classNames.pages.active)
-        } else if (thisApp.id === '#contact-us') {
+        } else if (thisApp.id == '#contact-us') {
           thisApp.idOfContactUs.classList.add(classNames.pages.active)
         }
       });
