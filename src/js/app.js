@@ -10,7 +10,7 @@ export const app = {
 
     thisApp.navLinks = document.querySelectorAll(select.nav.links);
 
-    const idFromHash = window.location.hash.replace('#/', '');
+    // const idFromHash = window.location.hash.replace('#/', '');
 
 
     thisApp.idOfProducts = document.querySelector('#products');
@@ -24,10 +24,10 @@ export const app = {
         event.preventDefault();
 
         //get page id from href attribute
-        const id = clickedElement.getAttribute('href').replace('#', '');
-
+        // const id = clickedElement.getAttribute('href').replace('#', '');
+        // thisApp.id = clickedElement.getAttribute('href');
         //  change URL hash
-        window.location.hash = '#/' + id;
+        // window.location.hash = '#/' + thisApp.id;
         // });
 
 
@@ -36,14 +36,15 @@ export const app = {
         thisApp.idOfContactUs.classList.remove(classNames.pages.active);
 
 
-        thisApp.idOfClickedElement = clickedElement.getAttribute('id');
+        thisApp.id = clickedElement.getAttribute('href');
+        window.location.hash = '#/' + thisApp.id;
 
 
-        if (thisApp.idOfClickedElement === '#products') {
+        if (thisApp.id === '#products') {
           thisApp.idOfProducts.classList.add(classNames.pages.active)
-        } else if (thisApp.idOfClickedElement === '#about-us') {
+        } else if (thisApp.id === '#about-us') {
           thisApp.idOfAboutUs.classList.add(classNames.pages.active)
-        } else if (thisApp.idOfClickedElement === '#contact-us') {
+        } else if (thisApp.id === '#contact-us') {
           thisApp.idOfContactUs.classList.add(classNames.pages.active)
         }
       });
