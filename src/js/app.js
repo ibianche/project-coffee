@@ -34,15 +34,15 @@ export const app = {
         thisApp.idOfContactUs.classList.remove(classNames.pages.active);
 
 
-        thisApp.id = clickedElement.getAttribute('href');
+        const id = clickedElement.getAttribute('href');
         window.location.hash = '#/' + thisApp.id;
 
 
-        if (thisApp.id == '#products') {
+        if (id == '#products') {
           thisApp.idOfProducts.classList.add(classNames.pages.active)
-        } else if (thisApp.id == '#about-us') {
+        } else if (id == '#about-us') {
           thisApp.idOfAboutUs.classList.add(classNames.pages.active)
-        } else if (thisApp.id == '#contact-us') {
+        } else if (id == '#contact-us') {
           thisApp.idOfContactUs.classList.add(classNames.pages.active)
         }
       });
