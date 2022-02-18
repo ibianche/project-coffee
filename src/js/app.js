@@ -35,7 +35,7 @@ export const app = {
 
 
         const id = clickedElement.getAttribute('href');
-        window.location.hash = '#/' + thisApp.id;
+        window.location.hash = '#/' + id;
 
 
         if (id == '#products') {
