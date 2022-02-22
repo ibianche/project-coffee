@@ -5,7 +5,7 @@ import Product from './components/Product.js';
 export const app = {
 
   initPages: function() {
-    const thisApp = this;
+
 
 
     const navLinks = document.querySelectorAll(select.nav.links);
