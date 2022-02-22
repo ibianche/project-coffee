@@ -1,4 +1,4 @@
-import { settings, select, classNames } from './settings.js'
+import { settings, select, classNames, idOf } from './settings.js'
 import Product from './components/Product.js';
 
 
@@ -12,9 +12,9 @@ export const app = {
 
     // const idFromHash = window.location.hash.replace('#/', '');
 
-    thisApp.idOfProducts = document.querySelector('#products');
-    thisApp.idOfAboutUs = document.querySelector('#about-us');
-    thisApp.idOfContactUs = document.querySelector('#contact-us');
+    thisApp.idOfProducts = document.querySelector(idOf.products);
+    thisApp.idOfAboutUs = document.querySelector(idOf.aboutUs);
+    thisApp.idOfContactUs = document.querySelector(idOf.contactUs);
 
 
     for (let link of thisApp.navLinks) {
@@ -22,12 +22,6 @@ export const app = {
         const clickedElement = this;
         event.preventDefault();
 
-        //get page id from href attribute
-        // const id = clickedElement.getAttribute('href').replace('#', '');
-        // thisApp.id = clickedElement.getAttribute('href');
-        //  change URL hash
-        // window.location.hash = '#/' + thisApp.id;
-        // });
 
         thisApp.idOfProducts.classList.remove(classNames.pages.active);
         thisApp.idOfAboutUs.classList.remove(classNames.pages.active);
@@ -80,8 +74,9 @@ export const app = {
 
   init: function() {
     const thisApp = this;
-    thisApp.initData();
     thisApp.initPages();
+    thisApp.initData();
+
     // thisApp.initProduct();
   },
   // thisApp.initProduct();

@@ -16,6 +16,12 @@ export const select = {
 
 };
 
+export const idOf = {
+  products: '#products',
+  aboutUs: '#about-us',
+  contactUs: '#contact-us',
+};
+
 export const templates = {
   coffeeProduct: Handlebars.compile(document.querySelector(select.templateOf.product).innerHTML),
 };
@@ -30,7 +36,7 @@ export const settings = {
 
 export const classNames = {
   pages: {
-    active: '.active',
+    active: 'active',
   },
   nav: {
     active: 'active',
