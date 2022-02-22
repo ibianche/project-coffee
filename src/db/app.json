@@ -9,6 +9,9 @@
       "intensity":"6/10",
       "image":[
         "<img class=\"active\" src=\"images/coffee-1.png\">"
+      ],
+      "image-most-popular":[
+        "<img class=\"active\" src=\"images/badge.png\">"
       ]
     },
 
