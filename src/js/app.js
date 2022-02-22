@@ -8,24 +8,24 @@ export const app = {
     const thisApp = this;
 
 
-    thisApp.navLinks = document.querySelectorAll(select.nav.links);
+    const navLinks = document.querySelectorAll(select.nav.links);
 
     // const idFromHash = window.location.hash.replace('#/', '');
 
-    thisApp.idOfProducts = document.querySelector(idOf.products);
-    thisApp.idOfAboutUs = document.querySelector(idOf.aboutUs);
-    thisApp.idOfContactUs = document.querySelector(idOf.contactUs);
+    const idOfProducts = document.querySelector(idOf.products);
+    const idOfAboutUs = document.querySelector(idOf.aboutUs);
+    const idOfContactUs = document.querySelector(idOf.contactUs);
 
 
-    for (let link of thisApp.navLinks) {
+    for (let link of navLinks) {
       link.addEventListener('click', function (event) {
         const clickedElement = this;
         event.preventDefault();
 
 
-        thisApp.idOfProducts.classList.remove(classNames.pages.active);
-        thisApp.idOfAboutUs.classList.remove(classNames.pages.active);
-        thisApp.idOfContactUs.classList.remove(classNames.pages.active);
+        idOfProducts.classList.remove(classNames.pages.active);
+        idOfAboutUs.classList.remove(classNames.pages.active);
+        idOfContactUs.classList.remove(classNames.pages.active);
 
 
         const id = clickedElement.getAttribute('href');
@@ -33,11 +33,11 @@ export const app = {
 
 
         if (id == '#products') {
-          thisApp.idOfProducts.classList.add(classNames.pages.active)
+          idOfProducts.classList.add(classNames.pages.active)
         } else if (id == '#about-us') {
-          thisApp.idOfAboutUs.classList.add(classNames.pages.active)
+          idOfAboutUs.classList.add(classNames.pages.active)
         } else if (id == '#contact-us') {
-          thisApp.idOfContactUs.classList.add(classNames.pages.active)
+          idOfContactUs.classList.add(classNames.pages.active)
         }
       });
 
