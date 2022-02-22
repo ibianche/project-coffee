@@ -3,15 +3,9 @@ import Product from './components/Product.js';
 
 
 export const app = {
-
   initPages: function() {
 
-
-
     const navLinks = document.querySelectorAll(select.nav.links);
-
-    // const idFromHash = window.location.hash.replace('#/', '');
-
     const idOfProducts = document.querySelector(idOf.products);
     const idOfAboutUs = document.querySelector(idOf.aboutUs);
     const idOfContactUs = document.querySelector(idOf.contactUs);
