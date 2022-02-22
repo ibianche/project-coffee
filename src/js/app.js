@@ -29,7 +29,8 @@ export const app = {
         if (id == '#products') {
           idOfProducts.classList.add(classNames.pages.active)
         } else if (id == '#about-us') {
-          idOfAboutUs.classList.add(classNames.pages.active)
+          idOfAboutUs.classList.add(classNames.pages.active);
+          idOfProducts.classList.add(classNames.pages.active)
         } else if (id == '#contact-us') {
           idOfContactUs.classList.add(classNames.pages.active)
         }
