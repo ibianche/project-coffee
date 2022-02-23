@@ -125,6 +125,7 @@
     font-size: 20px;
     margin-left: 40px;
     margin-top: 45px;
+
   }
 
   .products-description{
@@ -182,5 +183,9 @@
 
   button{
     font-size: 10px;
+  }
+
+  .coffee-description{
+    flex-direction: column;
   }
 }

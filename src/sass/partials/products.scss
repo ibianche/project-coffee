@@ -5,6 +5,12 @@
   width: 90%;
 }
 
+.coffee-description{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .products-container-title h1{
   text-align: center;
   font-size: 50px;
