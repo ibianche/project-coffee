@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5fb88ad-8c30-44d1-bd94-187d02a112bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/partials/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/partials/products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/products.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/partials/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/footer.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,16 +24,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sass/partials/media.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2835">
-              <caret line="189" column="1" lean-forward="true" selection-start-line="189" selection-start-column="1" selection-end-line="189" selection-end-column="1" />
+            <state relative-caret-position="-1156">
+              <caret column="35" selection-start-column="19" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sass/partials/footer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sass/partials/products.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
+            <state relative-caret-position="135">
               <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="10" selection-end-column="33" />
               <folding>
                 <marker date="1645614363432" expanded="true" signature="825:826" ph="..." />
@@ -98,12 +104,12 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/src/js/app.js" />
-        <option value="$PROJECT_DIR$/src/sass/partials/footer.scss" />
         <option value="$PROJECT_DIR$/src/sass/partials/_hero.scss" />
         <option value="$PROJECT_DIR$/src/sass/partials/about.scss" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/sass/partials/media.scss" />
         <option value="$PROJECT_DIR$/src/sass/partials/products.scss" />
+        <option value="$PROJECT_DIR$/src/sass/partials/media.scss" />
+        <option value="$PROJECT_DIR$/src/sass/partials/footer.scss" />
       </list>
     </option>
   </component>
@@ -186,12 +192,12 @@
       <option name="presentableId" value="Default" />
       <updated>1643373463536</updated>
       <workItem from="1643373467528" duration="74273000" />
-      <workItem from="1645535408275" duration="18113000" />
+      <workItem from="1645535408275" duration="18542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92386000" />
+    <option name="totallyTimeSpent" value="92815000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,13 +382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/partials/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -421,13 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/partials/media.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2835">
-          <caret line="189" column="1" lean-forward="true" selection-start-line="189" selection-start-column="1" selection-end-line="189" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -437,11 +429,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/partials/products.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
+        <state relative-caret-position="135">
           <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="10" selection-end-column="33" />
           <folding>
             <marker date="1645614363432" expanded="true" signature="825:826" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/partials/media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1156">
+          <caret column="35" selection-start-column="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/partials/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
