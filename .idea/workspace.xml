@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5fb88ad-8c30-44d1-bd94-187d02a112bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/partials/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/media.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +15,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-299">
+            <state relative-caret-position="91">
               <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
             </state>
           </provider>
@@ -25,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sass/partials/media.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="224" column="23" selection-start-line="224" selection-start-column="23" selection-end-line="224" selection-end-column="23" />
+            <state relative-caret-position="1772">
+              <caret line="199" selection-start-line="199" selection-end-line="199" />
             </state>
           </provider>
         </entry>
@@ -201,12 +200,12 @@
       <option name="presentableId" value="Default" />
       <updated>1643373463536</updated>
       <workItem from="1643373467528" duration="74273000" />
-      <workItem from="1645535408275" duration="23450000" />
+      <workItem from="1645535408275" duration="24680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97723000" />
+    <option name="totallyTimeSpent" value="98953000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -224,9 +223,9 @@
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49713877" weight="0.3525281" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49642345" weight="0.41573033" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5028612" side_tool="true" weight="0.34550563" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5035765" side_tool="true" weight="0.41573033" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -429,13 +428,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/partials/products.scss">
+    <entry file="file://$PROJECT_DIR$/src/sass/bootstrap/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <marker date="1645614363432" expanded="true" signature="825:826" ph="..." />
-          </folding>
+        <state relative-caret-position="91">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -446,20 +445,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/bootstrap/_grid.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/src/sass/partials/products.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-299">
-          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+        <state relative-caret-position="135">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <marker date="1645614363432" expanded="true" signature="825:826" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/partials/media.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="224" column="23" selection-start-line="224" selection-start-column="23" selection-end-line="224" selection-end-column="23" />
+        <state relative-caret-position="1772">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
         </state>
       </provider>
     </entry>
